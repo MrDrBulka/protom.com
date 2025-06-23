@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - ТОО «ProТОМ»</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact-cards.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="Home.html" class="logo">Pro<span>ТОМ</span></a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="Home.html">Главная</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="about the company.html">О компании</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Контакты</h1>
+            <div class="breadcrumbs">
+                <a href="Home.html">Главная</a> / <span>Контакты</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="section-badge">Наши контакты</div>
+                <h2 class="section-title">Свяжитесь с нами</h2>
+                <p class="section-subtitle">Мы всегда готовы ответить на ваши вопросы и помочь с выбором оптимального решения</p>
+            </div>
+            
+            <div class="contact-cards-grid">
+                <!-- Карточка 1: Компания -->
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Компания</h3>
+                    <p>ТОО «ProTOM» - профессиональные решения в области теплоэнергетики.</p>
+                    <ul class="contact-card-features">
+                        <li>Официальный юридический статус</li>
+                        <li>Полный комплекс услуг</li>
+                        <li>Гарантия качества</li>
+                    </ul>
+                </div>
+                
+                <!-- Карточка 2: Контактное лицо -->
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Контактное лицо</h3>
+                    <p>Евгений Николаевич - директор компании, готов ответить на все ваши вопросы.</p>
+                    <ul class="contact-card-features">
+                        <li>Персональная консультация</li>
+                        <li>Оперативное решение вопросов</li>
+                        <li>Индивидуальный подход</li>
+                    </ul>
+                </div>
+                
+                <!-- Карточка 3: Адрес -->
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Адрес</h3>
+                    <p>Казахстан, Карагандинская область, Караганда, ул. Заводская, 31</p>
+                    <ul class="contact-card-features">
+                        <li>Удобное расположение</li>
+                        <li>Собственный офис</li>
+                        <li>Возможность личной встречи</li>
+                    </ul>
+                </div>
+                
+                <!-- Карточка 4: Телефоны -->
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Телефоны</h3>
+                    <p>Свяжитесь с нами по телефону для получения консультации или заказа услуг.</p>
+                    <ul class="contact-card-features">
+                        <li>+7 7212 44-55-55 (офис)</li>
+                        <li>+7 701 988 86 87 (директор)</li>
+                        <li>Быстрая обратная связь</li>
+                    </ul>
+                </div>
+                
+                <!-- Карточка 5: Email -->
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Отправьте нам электронное письмо с вашим запросом или предложением.</p>
+                    <ul class="contact-card-features">
+                        <li>protom.kz@mail.ru</li>
+                        <li>Ответ в течение 24 часов</li>
+                        <li>Подробная консультация</li>
+                    </ul>
+                </div>
+                
+                <!-- Карточка 6: Режим работы -->
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Режим работы</h3>
+                    <p>Мы работаем в будние дни для обеспечения качественного обслуживания клиентов.</p>
+                    <ul class="contact-card-features">
+                        <li>Пн-Пт: 9:00 - 18:00</li>
+                        <li>Обед: 13:00 - 14:00</li>
+                        <li>Выходные: Сб, Вс</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Наше местоположение</div>
+                <h2 class="section-title">Как нас найти</h2>
+            </div>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.8251440540395!2d73.08941731571671!3d49.80635797939259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4243477c8c1f7f7d%3A0x8c7b7d354d335744!2z0JfQsNCy0L7QtNGB0LrQsNGPINGD0LsuLCAzMSwg0JrQsNGA0LDQs9Cw0L3QtNCwIDEwMDAwMCwg0JrQsNC30LDRhdGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1654321234567!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <h3>О компании</h3>
+                    <p>ТОО «ProТОМ» - профессиональные решения в области теплоэнергетики. Мы специализируемся на изготовлении и монтаже быстровозводимых котельных под ключ.</p>
+                </div>
+                <div class="footer-col footer-links">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="Home.html">Главная</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="about the company.html">О компании</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Караганда, ул. Заводская, 31</p>
+                    <p><i class="fas fa-phone-alt"></i> +7 (7212) 44-55-55</p>
+                    <p><i class="fas fa-envelope"></i> protom.kz@mail.ru</p>
+                    <p><i class="fas fa-clock"></i> Пн-Пт: 9:00 - 18:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ТОО «ProТОМ». Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
